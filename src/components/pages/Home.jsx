@@ -1,4 +1,3 @@
-import NavBar from "../NavBar";
 import NavWrapper from "../NavWrapper";
 import Fields from "./Fields.jsx";
 import WorkFlow from "./WorkFlow.jsx";
