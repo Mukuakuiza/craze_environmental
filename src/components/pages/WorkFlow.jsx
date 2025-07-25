@@ -7,16 +7,16 @@ const WorkFlow = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pt-4 lg:pr-8">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
+              <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-black sm:text-5xl">
                 A better workflow for environmental sustainability
               </p>
-              <p className="mt-6 text-lg/8 text-gray-600">
+              <p className="mt-6 text-lg/8 text-black">
                 We coordinate and facilitate the implementation of Environmental
                 Strategy, working with a range of other companies and external
                 partners to manage and protect the environment and ensure
                 environmental sustainability.
               </p>
-              <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
+              <dl className="mt-10 max-w-xl space-y-8 text-base/7 text- lg:max-w-none">
                 <div className="relative pl-9">
                   <p>
                     We are serious about following a holistic approach to

@@ -8,12 +8,6 @@ const Cards = ({
 }) => {
   return (
     <div className="bg-black overflow-hidden py-24 sm:py-32">
-      <div className="text-center text-3xl my-10 text-white">
-        <h2>{title}</h2>
-        <h2 className="text-base/7 text-center font-semibold text-lime-500">
-          ------------------------
-        </h2>
-      </div>
       <div className="flex flex-col gap-10 overflow-x-hidden ">
         <motion.section
           variants={containerVariants}
@@ -53,6 +47,12 @@ const Cards = ({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeOut", delay: 1 }}
             >
+              <div className="text-center text-3xl font-semibold my-10 text-white">
+                <h2>{title}</h2>
+                <h2 className="text-base/7 text-center  text-lime-500">
+                  ------------------------
+                </h2>
+              </div>
               <p className="mt-2  text-white  text-2xl">
                 At Craze Environmental (Pty) Ltd. we understand that our
                 well-being, improved quality of life and a secure world for the

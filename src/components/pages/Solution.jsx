@@ -1,6 +1,5 @@
 import Card from "../Card";
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 const Solution = () => {
   return (
     <>
@@ -13,7 +12,7 @@ const Solution = () => {
                 <p className="mt-2 text-3xl font-semibold tracking-tight text-pretty text-white sm:text-3xl">
                   Our Window of Opportunity Is Open Now
                 </p>
-                <p className="mt-6 text-lg/8 text-white">
+                <p className="mt-6  text-xl text-white">
                   Our planet faces the interconnected crises of rapid climate
                   change and biodiversity loss. We have years, not decades, to
                   address these existential threats.The science is clear: We
@@ -26,7 +25,7 @@ const Solution = () => {
                 <h2 className="text-base/7 mt-4  font-semibold text-lime-500">
                   ------------------
                 </h2>
-                <p className="mt-6 text-lg/8 text-white">
+                <p className="mt-6 text-white  text-xl">
                   Our actions will also determine whether we conserve enough
                   land and water to slow the rapid acceleration of species loss.
                   If we do both, we will safeguard people from the disastrous

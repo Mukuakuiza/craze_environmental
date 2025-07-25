@@ -4,7 +4,7 @@ const SpecialitiesCard = ({ containerVariants, squareVariants, title }) => {
     <>
       <div className="flex bg-lime-500 flex-col gap-10">
         <div>
-          <h2 className="text-center text-3xl mt-36">{title}</h2>
+          <h2 className="text-center text-3xl font-semibold mt-36">{title}</h2>
           <h2 className="text-base/7 text-center font-semibold text-black">
             ------------------------
           </h2>
